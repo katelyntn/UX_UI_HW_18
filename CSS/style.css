@@ -135,17 +135,18 @@ body{
     grid-template-rows: 300px 300px 300px;
     grid-row-gap: 50px;
 
+
   }
 
   .workGrid img {
     width: 100%;
-    margin: 0 auto;
     display: block;
-    background-color:red;
+    background-color:papayawhip;
   }
 
   .project1{
     background-color:#FFF9E3;
+
   }
 
   .project2{
@@ -176,3 +177,13 @@ body{
     border-radius: 16px;
   }
 
+  @media only screen and (max-width: 600px) {
+    .flexContainer{
+      flex-direction:column;
+    }
+    .workGrid{
+      grid-template-columns:1fr;
+
+    }
+    
+    }
