@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../../Coding Activities/Unit_18_HW_Template 2"
 		}
 	]
 }
