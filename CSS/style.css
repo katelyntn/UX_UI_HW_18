@@ -6,10 +6,9 @@ body{
   }
  
   ul {
-    display:inline-flex;
+    display:flex;
     float: right;
     width: 25%;
-    flex-direction: row;
     list-style-type: none;
     background-color: white;
   }
@@ -37,7 +36,7 @@ body{
   }
   
   li a {
-    display: block;
+    display: inline-block;
     font-family:'Mulish', sans-serif;
     font-weight: 100;
     color:#252525;
@@ -105,28 +104,75 @@ body{
   /* <!--  My UX Skills section coded using CSS flex --> */
 
   .flexContainer{
-    display:inline-flex;
+    display: flex;
     flex-direction:column;
   }
+
   h2 {
     font-family:'Lora', serif;
-    font-size:x-large;
+    font-size:30px;
     text-align:center;
   }
+
   h3 {
     font-family:'Lora', serif;
     font-size:16px;
     margin-left: 50px;
   }
-.tools{
-  display:flex;
-  flex-direction:column;
-}
+
   p2 {
     display:flex;
     font-family:'Mulish', sans-serif;
-    font-size: 16px;
     font-weight: 100;
     width: 600px;
     margin-left: 50px;
   }
+
+  /* <!-- My Work Section Constructed using CSS Grid --> */
+  .workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px 300px 300px;
+    grid-row-gap: 50px;
+
+  }
+
+  .workGrid img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    background-color:red;
+  }
+
+  .project1{
+    background-color:#FFF9E3;
+  }
+
+  .project2{
+    background-color:#DBFCF9;
+  }
+
+  .project3{
+    background-color:#EEFFEE;
+  }
+
+  h4{
+    font-size:25px;
+    margin-left: 25px;
+  }
+
+  .workGrid p{
+    margin-left: 25px;
+    font-family:'Mulish', sans-serif;
+    font-weight: 100;
+  }
+
+
+  button{
+    padding: 15px;
+    margin-left: 25px;
+    background-color:transparent;
+    font-size: 15px;
+    border-radius: 16px;
+  }
+
