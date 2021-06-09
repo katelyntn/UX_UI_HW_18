@@ -26,7 +26,7 @@ body{
     display: flex;
     width: 100%
   }
-  .Introcontainer {
+  .introcontainer {
   flex-direction:column;
   width:80%;
   }
@@ -177,13 +177,33 @@ body{
     border-radius: 16px;
   }
 
+  .contacts {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-family:'Mulish', sans-serif;
+    font-weight: 100;
+  }
+
+
+
+
   @media only screen and (max-width: 600px) {
     .flexContainer{
       flex-direction:column;
     }
+
+    .introContainer {
+      flex-direction: column;
+    }
+
     .workGrid{
       grid-template-columns:1fr;
+    }
 
+    .herosection {
+      flex-direction: column;
     }
     
+  
     }
